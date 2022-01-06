@@ -1,0 +1,41 @@
+body{font-family:  'Lato', sans-serif;background-color: rgb(110, 232, 241);}
+
+.flex-section{
+    display: flex;margin-bottom: 100px;
+}
+.header-text{width:40%; padding-left: 3%;
+}
+.header-text img{
+    width:80%; padding-left: 200px;
+}
+ 
+h1{
+    font-size: 60px; 
+}
+#leftside-border{
+    border-image: linear-gradient(purple,tomato);border-left: 5px solid; border-image-slice: 1;
+}
+.text-color{
+    color: #ffffff;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(102, 102, 216),rgb(102, 245, 245));
+    color: white;
+    padding: 14px 49px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+/* middle section */
+ .Mission-item{
+    box-shadow: 10px 10px 40px  gray; width: 40%;margin-left: 5%;margin-right: 5%;padding: 8px;border-radius: 20px;
+ }
+ #box-background1{ 
+     background-color: burlywood;
+ }
+ #box-background2{
+    background-color: thistle;
+ }
+ #box-background3{
+    background-color: wheat;
+ }
