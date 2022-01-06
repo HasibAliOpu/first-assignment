@@ -20,7 +20,7 @@ h1{
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(102, 102, 216),rgb(102, 245, 245));
+    background-image: linear-gradient(purple,tomato);
     color: white;
     padding: 14px 49px;
     font-weight: 700;
