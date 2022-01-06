@@ -1,7 +1,7 @@
 body{font-family:  'Lato', sans-serif;background-color: rgb(110, 232, 241);}
 
 .flex-section{
-    display: flex;margin-bottom: 100px;
+    display: flex;margin-bottom: 150px;
 }
 .header-text{width:40%; padding-left: 3%;
 }
@@ -39,3 +39,36 @@ h1{
  #box-background3{
     background-color: wheat;
  }
+.half-width{
+    width: 40%;padding: 3%;
+}
+.half-width img{width: 100%;padding-left: 40px;}
+#leftside-circle{
+    background-image:url(shapes/shape-1.png);background-repeat: no-repeat;background-size: 270px;background-position:left 150px ;
+}
+#rightside-circle{
+    background-image: url(shapes/shape-1.png);background-repeat: no-repeat;background-size: 190px;background-position: right +450px;
+}
+/* Navbar */
+nav{
+    background:#1E1E25; height: 80px;width: 100%;
+}
+label.logo{
+    color:white;font-size: 40px; line-height: 80px;padding: 0 100px; font-weight: bold;
+}
+nav ul{
+    float: right;
+ margin-right: 20px;   
+}
+nav ul li{
+    display: inline-block; line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;}
+ 
+ 
+ 
+ /*.page-end{text-align: center;background-color:rgb(83, 83, 138);padding: 50px;}*/
